@@ -6,7 +6,7 @@
 
 <img align="right" src="https://storage-asset.msi.com/event/msi_main_style/global_support/images/msilogo-w.png" alt="Critter" width="200">
 
-Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/README_EN.md)
+Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
 
 **macOS Versiyonu: 10.15.7**
 
