@@ -38,8 +38,11 @@ Helpful Tips:
 - [x] FaceTime
 - [x] Virtualization (w/Bluestacks, VirtualBox)
 - [x] Sleep
+- [x] Wireless
+- [x] Sound (Layout: 1)
 
 ### Not working (yet)
+- [ ] Bluetooth
 - [ ] Airdrop
 
 ### Folder Structure
@@ -61,6 +64,8 @@ Helpful Tips:
 │       │   └── OpenRuntime.efi
 │       ├── Kexts
 │       │   ├── AppleALC.kext
+│       │   ├── dAGPM.kext
+│       │   ├── itlwm.kext
 │       │   ├── Lilu.kext
 │       │   ├── LucyRTL8125Ethernet.kext
 │       │   ├── NVMeFix.kext
@@ -69,12 +74,12 @@ Helpful Tips:
 │       │   ├── USBPorts.kext
 │       │   ├── VirtualSMC.kext
 │       │   ├── WhateverGreen.kext
-│       │   ├── XHCI-unsupported.kext
-│       │   └── dAGPM.kext
+│       │   └── XHCI-unsupported.kext
 │       ├── OpenCore.efi
 │       ├── Tools
 │       │   └── OpenShell.efi
 │       └── config.plist
+│   README_EN.md
 └── README.md
 ```
 
