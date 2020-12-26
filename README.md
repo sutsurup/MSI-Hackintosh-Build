@@ -4,7 +4,7 @@
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MSI-Hackintosh-Build/releases)
 
-<img align="right" src="https://storage-asset.msi.com/event/msi_main_style/global_support/images/msilogo-w.png" alt="Critter" width="200">
+<img align="right" src="Images/logo-png.png" alt="MSI" width="200">
 
 Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
 
@@ -12,7 +12,7 @@ Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/
 
 **OpenCore Versiyonu: 0.6.3**
 
-Bu OpenCore Hackintosh yapısı i5-10400F, RX 5500 XT, B460M Mortar (WiFi versiyonu) için yapılmıştır.
+Bu OpenCore Hackintosh yapısı B460M Mortar WiFi, i5-10400F, RX 5500 XT için yapılmıştır.
 
 Yardımcı olabilecek kaynaklar: 
 
@@ -36,10 +36,13 @@ Yardımcı olabilecek kaynaklar:
 - [x] iCloud
 - [x] iMessage
 - [x] FaceTime
-- [x] Virtualization (w/Bluestacks, VirtualBox)
-- [x] Sleep
+- [x] Sanallaştırma (w/Bluestacks, VirtualBox)
+- [x] Uyku
+- [x] Wireless
+- [x] Ses (Layout: 1)
 
 ### Çalışmıyor (henüz)
+- [ ] Bluetooth
 - [ ] Airdrop
 
 ### Klasör Yapısı
@@ -61,6 +64,8 @@ Yardımcı olabilecek kaynaklar:
 │       │   └── OpenRuntime.efi
 │       ├── Kexts
 │       │   ├── AppleALC.kext
+│       │   ├── dAGPM.kext
+│       │   ├── itlwm.kext
 │       │   ├── Lilu.kext
 │       │   ├── LucyRTL8125Ethernet.kext
 │       │   ├── NVMeFix.kext
@@ -69,12 +74,12 @@ Yardımcı olabilecek kaynaklar:
 │       │   ├── USBPorts.kext
 │       │   ├── VirtualSMC.kext
 │       │   ├── WhateverGreen.kext
-│       │   ├── XHCI-unsupported.kext
-│       │   └── dAGPM.kext
+│       │   └── XHCI-unsupported.kext
 │       ├── OpenCore.efi
 │       ├── Tools
 │       │   └── OpenShell.efi
 │       └── config.plist
+│   README_EN.md
 └── README.md
 ```
 
