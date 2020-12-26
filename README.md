@@ -29,6 +29,7 @@ Yardımcı olabilecek kaynaklar:
 | Grafik Kartı | MSI Radeon RX 5500 XT GAMING X 8G (1845 MHz) GDDR6                     |
 | Wi-Fi             | Intel® AX200 802.11 a/b/g/n/ac/ax 2.4GHz-5GHz up to 2.4Gbps WiFi 6 |
 | Ses       | Realtek® ALC1200 Codec                        |
+| Güç Kaynağı       | Corsair CV Serisi CV650 — 650 Watt 80 Plus Bronz Sertifikalı PSU                        |
 
 ### Çalışıyor
 
