@@ -122,3 +122,8 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
   <summary>2020-12-26</summary>
   OC 0.6.3 güncellendi.
 </details>
+
+### Destek olmak için
+Bu projeyi faydalı bulduysanız, destek olmak için bağış yapabilirsiniz:
+**₿itcoin: 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN**
+<a href='http://sutsurup.com/donate'><img alt='Donate' src='Images/donate.png' height='360px' width='375px'/></a>
