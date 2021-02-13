@@ -1,20 +1,20 @@
 # MSI Tempered Tower (w/ Intel)
 
-[![macOS](https://img.shields.io/badge/macOS-10.15.7-orange)](https://www.apple.com.cn/macos/big-sur-preview/)
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![macOS](https://img.shields.io/badge/macOS-11.1-orange)](https://www.apple.com.cn/macos/big-sur-preview/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-9cf)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/indir-son%20sürüm-blue.svg)](https://github.com/sutsurup/MSI-Hackintosh-Build/releases)
 
 <img align="right" src="Images/logo-png.png" alt="MSI" width="200">
 
 Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
 
-**macOS Versiyonu: 10.15.7**
+**macOS Versiyonu: 11.1**
 
-**OpenCore Versiyonu: 0.6.3**
+**OpenCore Versiyonu: 0.6.6**
 
 Bu OpenCore Hackintosh yapısı B460M Mortar WiFi, i5-10400F, RX 5500 XT için yapılmıştır.
 
-Yardımcı olabilecek kaynaklar: 
+Yardımcı olabilecek kaynaklar:
 
 - [OpenCore Yükleme Rehberi](https://dortania.github.io/OpenCore-Install-Guide)
 
@@ -113,11 +113,13 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
 ```
 
 ### İletişim kurun
-[Yeni bir destek kaydı oluşturabilirsiniz](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
+[Destek kaydı oluşturabilirsiniz](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya mail: [contact@sutsurup.com](mailto:contact@sutsurup.com)
 
 ### Güncellemeler
-- 2020-12-26
-  OC 0.6.3 güncellendi.
+  <details>
+  <summary>2021-02-13</summary>
+  macOS Big Sur 11.1 sürümüne geçildi. OC 0.6.6 güncellendi. Düzenlemelerimi yaptıktan sonra Releases bölümüne yakın zamanda eklenecektir.
+</details>
 <details>
   <summary>2020-12-26</summary>
   OC 0.6.3 güncellendi.
