@@ -125,7 +125,13 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
   OC 0.6.3 güncellendi.
 </details>
 
-### Destek olmak için
-Bu projeyi faydalı bulduysanız, destek olmak için bağış yapabilirsiniz:
-**₿itcoin: 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN**
-<a href='http://sutsurup.com/donate'><img alt='Donate' src='Images/donate.png' height='360px' width='375px'/></a>
+### Destek olun.
+Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak için bağış yapabilirsiniz:
+```
+₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
+Papara ➜ 1801475764
+``` 
+<a href='http://sutsurup.com/donate'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
+```
+QR kodu tarayarak alternatif seçeneklere ulaşabilirsiniz
+``` 
