@@ -113,7 +113,7 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
 ```
 
 ### İletişim kurun
-[Destek kaydı oluşturabilirsiniz](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya mail: [contact@sutsurup.com](mailto:contact@sutsurup.com)
+[Destek kaydı oluşturabilirsiniz](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
 
 ### Güncellemeler
   <details>
@@ -129,9 +129,8 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
 Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak için bağış yapabilirsiniz:
 ```
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
-Papara ➜ 1801475764
 ``` 
 <a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
-QR kodu tarayarak alternatif seçeneklere ulaşabilirsiniz
+QR koda tıklayarak alternatif seçeneklere ulaşabilirsiniz
 ``` 
