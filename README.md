@@ -6,7 +6,7 @@
 
 <img align="right" src="Images/logo-png.png" alt="MSI" width="200">
 
-Türkçe | [English](https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/README_EN.md)
+Türkçe | [English](README_EN.md)
 
 **macOS Versiyonu: 11.1**
 
@@ -56,7 +56,7 @@ Yardımcı olabilecek kaynaklar:
 │       │   ├── SSDT-AWAC.aml
 │       │   ├── SSDT-EC-USBX-DESKTOP.aml
 │       │   ├── SSDT-PLUG.aml
-│       │   └── SSDT-RX\ 5500\ XT.aml
+│       │   └── SSDT-RX 5500 XT.aml
 │       ├── Bootstrap
 │       │   └── Bootstrap.efi
 │       ├── Drivers
@@ -113,7 +113,7 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
 ```
 
 ### İletişim kurun
-[Destek kaydı oluşturabilirsiniz](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya mail: [veyselfurkan@icloud.com](mailto:veyselfurkan@icloud.com)
+Website: https://sutsurup.tr // Mail: veysel@sutsurup.tr
 
 ### Güncellemeler
   <details>
