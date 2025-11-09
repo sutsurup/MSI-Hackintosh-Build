@@ -8,44 +8,44 @@
 
 Türkçe | [English](README_EN.md)
 
-**macOS Versiyonu: 11.1**
+**macOS Sürümü: 11.1**
 
-**OpenCore Versiyonu: 0.6.6**
+**OpenCore Sürümü: 0.6.6**
 
-Bu OpenCore Hackintosh yapısı B460M Mortar WiFi, i5-10400F, RX 5500 XT için yapılmıştır.
+Bu OpenCore Hackintosh yapılandırması, B460M Mortar WiFi, i5-10400F ve RX 5500 XT için oluşturulmuştur.
 
-Yardımcı olabilecek kaynaklar:
+Faydalı olabilecek kaynaklar:
 
 - [OpenCore Yükleme Rehberi](https://dortania.github.io/OpenCore-Install-Guide)
 
-## Donanım
+## Donanım Özellikleri
 
-| ║▌║ **MSI** ║▌║ | Detay                                                  |
+| ║▌║ **MSI** ║▌║ | Model                                                  |
 | ------------------- | ------------------------------------------- |
 | Kasa           | MSI MPG GUNGNIR 110R Mid-Tower USB 3.2 Gen 1/2 ARGB     |
 | Anakart           | MSI MAG B460M MORTAR WIFI (Intel® B460 Chipset)     |
-| İşlemci              | Intel® Core™ i5-10400F 2.90GHz (up to 4.30GHz) Comet Lake              |
+| İşlemci              | Intel® Core™ i5-10400F 2.90GHz (4.30GHz'e kadar) Comet Lake              |
 | RAM           | Corsair VENGEANCE® RGB PRO 16GB (2 x 8GB) DDR4 DRAM 3000MHz CL15     |
-| Grafik Kartı | MSI Radeon RX 5500 XT GAMING X 8G (1845 MHz) GDDR6                     |
-| Wi-Fi             | Intel® AX200 802.11 a/b/g/n/ac/ax 2.4GHz-5GHz up to 2.4Gbps WiFi 6 |
-| Ses       | Realtek® ALC1200 Codec                        |
-| Güç Kaynağı       | Corsair CV Serisi CV650 — 650 Watt 80 Plus Bronz Sertifikalı PSU                        |
+| Ekran Kartı | MSI Radeon RX 5500 XT GAMING X 8G (1845 MHz) GDDR6                     |
+| Wi-Fi             | Intel® AX200 802.11 a/b/g/n/ac/ax 2.4GHz-5GHz, 2.4Gbps'e kadar WiFi 6 |
+| Ses Kartı       | Realtek® ALC1200 Codec                        |
+| Güç Kaynağı       | Corsair CV Serisi CV650 — 650 Watt 80 Plus Bronze Sertifikalı PSU                        |
 
-### Çalışıyor
+### Çalışan Özellikler
 
 - [x] iCloud
 - [x] iMessage
 - [x] FaceTime
-- [x] Sanallaştırma (w/Bluestacks, VirtualBox)
-- [x] Uyku
-- [x] Wireless
+- [x] Sanallaştırma (Bluestacks, VirtualBox vb.)
+- [x] Uyku Modu
+- [x] Wi-Fi
 - [x] Ses (Layout: 1)
 
-### Çalışmıyor (henüz)
+### Çalışmayan Özellikler (Henüz)
 - [ ] Bluetooth
-- [ ] Airdrop
+- [ ] AirDrop
 
-### Klasör Yapısı
+### Dizin Yapısı
 ```
 .
 ├── EFI
@@ -83,15 +83,15 @@ Yardımcı olabilecek kaynaklar:
 └── README.md
 ```
 
-## Wi-Fi için
-B460M Mortar WiFi anakartta halihazırda WiFi-Bluetooth entegrasyonu bulunmaktadır. Bu entegrasyon için gerekli dosyaları EFI klasörüne ekledim fakat WiFi panelini görüntülemek için HeliPort uygulamasını çalıştırmanız gerekiyor.
-Buradan indirebilirsiniz: [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1) (HeliPort.dmg)
+## Wi-Fi Kurulumu
+B460M Mortar WiFi anakart, dahili Wi-Fi ve Bluetooth modülüne sahiptir. Gerekli sürücüler EFI klasörüne eklenmiştir; ancak, Wi-Fi ağlarını görebilmek için HeliPort uygulamasını çalıştırmanız gerekmektedir.
+Uygulamayı buradan indirebilirsiniz: [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1) (HeliPort.dmg)
 
 
-## Önemli
-Bu dosya config.plist dosyasıdır. Lütfen change MLB, SystemSerialNumber, SystemUUID bölümlerindeki sayıları kendi sisteminiz için oluşturduğunuz sayılarla değiştirin.
-Nasıl yapılır: [config.plist Düzenlemesi](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297),
-Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kendi cihazınıza özel numaralar oluşturmanız gerekiyor. iCloud'a giriş yapmayacaksanız bir önemi yoktur.
+## Önemli Notlar
+Bu EFI, `config.plist` dosyasını içerir. Lütfen `MLB`, `SystemSerialNumber` ve `SystemUUID` alanlarını kendi sisteminize özel olarak oluşturduğunuz değerlerle güncelleyin.
+Nasıl yapılır: [config.plist Düzenleme Rehberi](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297)
+Neden gerekli? Bu bilgiler her cihaza özel olmalıdır. Bu nedenle, kendi cihazınıza özel seri numaraları oluşturmanız gerekir. iCloud'a giriş yapmayacaksanız bu adım zorunlu değildir.
 
 ```
 <dict>
@@ -112,25 +112,28 @@ Neden yapıyoruz?: Bu bilgiler tek bir cihaza özel olmalıdır. Bu sebeple kend
 </dict>
 ```
 
-### İletişim kurun
-Website: https://sutsurup.tr // Mail: veysel@sutsurup.tr
+### İletişim
+Bir sorunla karşılaşırsanız [destek kaydı oluşturabilir](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) veya aşağıdaki kanallardan bana ulaşabilirsiniz:
+
+- **Website:** [sutsurup.tr](https://sutsurup.tr)
+- **Mail:** [veysel@sutsurup.tr](mailto:veysel@sutsurup.tr)
 
 ### Güncellemeler
   <details>
-  <summary>2021-02-13</summary>
-  macOS Big Sur 11.1 sürümüne geçildi. OC 0.6.6 güncellendi. Düzenlemelerimi yaptıktan sonra Releases bölümüne yakın zamanda eklenecektir.
+  <summary>13.02.2021</summary>
+  macOS Big Sur 11.1 sürümüne geçildi ve OpenCore 0.6.6'ya güncellendi. Düzenlemeler tamamlandıktan sonra yakın zamanda "Releases" bölümüne eklenecektir.
 </details>
 <details>
-  <summary>2020-12-26</summary>
-  OC 0.6.3 güncellendi.
+  <summary>26.12.2020</summary>
+  OpenCore 0.6.3'e güncellendi.
 </details>
 
-### Destek olun.
-Projeyi faydalı bulduysanız, kaynak bulma konusunda bana yardımcı olmak için bağış yapabilirsiniz:
+### Destek Olun
+Projeyi faydalı bulduysanız, yeni donanım ve kaynaklar için bağış yaparak destek olabilirsiniz:
 ```
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
 ``` 
 <a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Bağış' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
-QR koda tıklayarak alternatif seçeneklere ulaşabilirsiniz
+QR koda tıklayarak alternatif bağış seçeneklerine ulaşabilirsiniz.
 ``` 

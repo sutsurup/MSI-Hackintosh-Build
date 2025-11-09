@@ -12,40 +12,40 @@
 
 **OpenCore Version: 0.6.6**
 
-This OpenCore Hackintosh build is made for B460M Mortar WiFi, i5-10400F, RX 5500 XT.
+This OpenCore Hackintosh configuration is built for the B460M Mortar WiFi, i5-10400F, and RX 5500 XT.
 
-Helpful resources:
+Helpful Resources:
 
 - [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide)
 
-## Hardware
+## Hardware Specifications
 
-| ║▌║ **MSI** ║▌║ | Detail                                                  |
+| ║▌║ **MSI** ║▌║ | Model                                                  |
 | ------------------- | ------------------------------------------- |
 | Case           | MSI MPG GUNGNIR 110R Mid-Tower USB 3.2 Gen 1/2 ARGB     |
 | Motherboard           | MSI MAG B460M MORTAR WIFI (Intel® B460 Chipset)     |
 | Processor              | Intel® Core™ i5-10400F 2.90GHz (up to 4.30GHz) Comet Lake              |
 | RAM           | Corsair VENGEANCE® RGB PRO 16GB (2 x 8GB) DDR4 DRAM 3000MHz CL15     |
 | Graphics Card | MSI Radeon RX 5500 XT GAMING X 8G (1845 MHz) GDDR6                     |
-| Wi-Fi             | Intel® AX200 802.11 a/b/g/n/ac/ax 2.4GHz-5GHz up to 2.4Gbps WiFi 6 |
+| Wi-Fi             | Intel® AX200 802.11 a/b/g/n/ac/ax 2.4GHz-5GHz, up to 2.4Gbps WiFi 6 |
 | Audio       | Realtek® ALC1200 Codec                        |
 | Power Supply       | Corsair CV Series CV650 — 650 Watt 80 Plus Bronze Certified PSU                        |
 
-### Working
+### Working Features
 
 - [x] iCloud
 - [x] iMessage
 - [x] FaceTime
-- [x] Virtualization (w/Bluestacks, VirtualBox)
-- [x] Sleep
-- [x] Wireless
+- [x] Virtualization (e.g., Bluestacks, VirtualBox)
+- [x] Sleep Mode
+- [x] Wi-Fi
 - [x] Audio (Layout: 1)
 
-### Not working (yet)
+### Not Working (Yet)
 - [ ] Bluetooth
-- [ ] Airdrop
+- [ ] AirDrop
 
-### Folder Structure
+### Directory Structure
 ```
 .
 ├── EFI
@@ -83,15 +83,15 @@ Helpful resources:
 └── README.md
 ```
 
-## For Wi-Fi
-The B460M Mortar WiFi motherboard already has WiFi-Bluetooth integration. I have added the necessary files for this integration to the EFI folder, but you need to run the HeliPort application to view the WiFi panel.
+## Wi-Fi Setup
+The B460M Mortar WiFi motherboard has a built-in Wi-Fi and Bluetooth module. The necessary drivers have been added to the EFI folder; however, you need to run the HeliPort application to see Wi-Fi networks.
 You can download it here: [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/tag/v1.0.1) (HeliPort.dmg)
 
 
-## Important
-This file is the config.plist file. Please replace the numbers in the MLB, SystemSerialNumber, SystemUUID sections with the numbers you generated for your own system.
-How to do it: [Editing config.plist](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297),
-Why are we doing this?: This information must be unique to a single device. Therefore, you need to generate your own unique numbers for your device. It doesn't matter if you're not signing into iCloud.
+## Important Notes
+This EFI includes the `config.plist` file. Please update the `MLB`, `SystemSerialNumber`, and `SystemUUID` fields with the values you generated specifically for your system.
+How to do it: [config.plist Editing Guide](https://osxinfo.net/konu/opencore-ile-imessage-ve-apple-servislerini-aktif-etmek.16297)
+Why is this necessary? This information must be unique to each device. Therefore, you need to generate unique serial numbers for your machine. This step is not required if you do not plan to sign in to iCloud.
 
 ```
 <dict>
@@ -112,25 +112,28 @@ Why are we doing this?: This information must be unique to a single device. Ther
 </dict>
 ```
 
-### Get in touch
-Website: https://sutsurup.tr // Mail: veysel@sutsurup.tr
+### Contact
+If you encounter an issue, you can [open a support ticket](https://github.com/sutsurup/MSI-Hackintosh-Build/issues) or reach out to me through the following channels:
+
+- **Website:** [sutsurup.tr](https://sutsurup.tr)
+- **Mail:** [veysel@sutsurup.tr](mailto:veysel@sutsurup.tr)
 
 ### Updates
   <details>
-  <summary>2021-02-13</summary>
-  Switched to macOS Big Sur 11.1. Updated to OC 0.6.6. It will be added to the Releases section soon after I make my edits.
+  <summary>13.02.2021</summary>
+  Switched to macOS Big Sur 11.1 and updated to OpenCore 0.6.6. It will be added to the "Releases" section soon after the adjustments are complete.
 </details>
 <details>
-  <summary>2020-12-26</summary>
-  Updated to OC 0.6.3.
+  <summary>26.12.2020</summary>
+  Updated to OpenCore 0.6.3.
 </details>
 
-### Support me.
-If you found the project useful, you can donate to help me find resources:
+### Support Me
+If you found the project useful, you can support it by donating for new hardware and resources:
 ```
 ₿ 1Q8CEMHTuecxPUJpEdpRiG6Bg2GVtzw4bN
 ``` 
 <a href='https://github.com/sutsurup/sutsurup/blob/main/Donate.md'><img alt='Donate' src='https://github.com/sutsurup/MSI-Hackintosh-Build/blob/main/Images/donate.png?raw=true' height='360px' width='375px'/></a>
 ```
-Click on the QR code for alternative options
+Click the QR code to see alternative donation options.
 ``` 
